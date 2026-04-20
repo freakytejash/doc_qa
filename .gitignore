@@ -28,6 +28,12 @@ ENV/
 # ChromaDB (sensitive data)
 chroma_db/
 
+# PDF documents (proprietary data)
+*.pdf
+
+# Demo/scratch scripts
+demo.py
+
 # Environment Variables (SECRETS!)
 .env
 .env.local
